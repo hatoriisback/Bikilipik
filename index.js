@@ -1,9 +1,9 @@
 let name = 'Hendy';
-let role = 'member lama';
+let role = 'member baru';
 let birthMonth = 'januari';
 
 if (name === '') {
-    console.log('String tidak boleh kosong');
+    console.log('Anda belum mengisi nama');
 } else if (role === 'member baru') {
     if (birthMonth === 'januari' || birthMonth === 'Januari') {
         console.log(`Selamat ${name}!. Anda berhak mendapatkan voucher diskon sebesar 50%!`);
